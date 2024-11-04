@@ -5,3 +5,8 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 -Added a new character backgrounds
 -Added a new character name
 -Added new folders
+
+11/04/2024~
+-Added scritps
+-Added a timeline
+-Added code to start the timeline
