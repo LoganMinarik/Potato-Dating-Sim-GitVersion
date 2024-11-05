@@ -20,3 +20,4 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 -Added a music and sounds folder
 -Added music (yeah go ahead  and listen to it, also FOSS)
 -Added a emotion
+-Added something of a start

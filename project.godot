@@ -22,6 +22,7 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"narator": "res://code/narator.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch",
 "waifu-potato-v1": "res://code/waifu-potato-v1.dch"
 }
