@@ -25,3 +25,6 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 11/19/2024~
 -Added a new background art
 -Removed Rotten Cult
+-Added a new character art
+-Added a new background art
+-Added a ∑

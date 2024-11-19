@@ -6,7 +6,7 @@
 "custom_info": {
 "sound_mood_default": "",
 "sound_moods": {},
-"style": "visnovel-style"
+"style": "nochar_style"
 },
 "default_portrait": "nutural",
 "description": "",
@@ -15,6 +15,15 @@
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
+"New portrait": {
+"export_overrides": {
+"image": ""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "blush": {
 "export_overrides": {
 "image": "\"res://art/potato_blush.png\""

@@ -1,3 +1,4 @@
+[background arg="res://art/hellish_landscape.png" fade="0.0"]
 narator: Hello, Welcome to Potato Dating Simulator!
 narator: We are still in our Dev phase, like we only have primitive functions for this meme game.
 narator: Anyway, Enjoy what we have to offer!
@@ -7,4 +8,4 @@ narator: what is your name?
 [text_input var="UserName"]
 waifu-potato-v1 (blush): UwU
 waifu-potato-v1 (nutural): Hiiiii \:3
-<Empty Text Event>
+You: Erm... What the ∑?
