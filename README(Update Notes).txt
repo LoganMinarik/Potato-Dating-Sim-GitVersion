@@ -21,3 +21,7 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 -Added music (yeah go ahead  and listen to it, also FOSS)
 -Added a emotion
 -Added something of a start
+
+11/19/2024~
+-Added a new background art
+-Removed Rotten Cult

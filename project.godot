@@ -29,10 +29,12 @@ directories/dch_directory={
 directories/dtl_directory={
 "timeline": "res://timeline/timeline.dtl"
 }
-layout/style_list=["res://art/visualnovel-style.tres", "res://art/nochar_style.tres"]
+layout/style_list=["res://art/visualnovel-style.tres", "res://art/nochar_style.tres", "res://art/visnovel-style.tres"]
 layout/default_style="res://art/visualnovel-style.tres"
 glossary/default_case_sensitive=true
-variables={}
+variables={
+"UserName": ""
+}
 
 [editor_plugins]
 
