@@ -3,19 +3,27 @@ narator: Hello, Welcome to Potato Dating Simulator!
 narator: We are still in our Dev phase, like we only have primitive functions for this meme game.
 narator: Anyway, Enjoy what we have to offer!
 [background arg="res://art/Grocery-Store-Background.jpg" fade="0.0"]
+[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
 narator: You, find yourself at your boring 9-5 grocery store job. Begging for something good to happen to you.
 narator: what is your name?
 [text_input var="UserName"]
 if {UserName} == "Dev":
+	label Dev-point
+	[music fade="0.0" volume="0.0"]
 	- death.exe
 		jump timeline/death.exe
 	- sound test
 		- matcha_kawaii.mp3
 			[music path="res://music&sounds/matcha_kawaii.mp3" fade="0.0" volume="0.0"]
 			[sound path="res://music&sounds/matcha_kawaii.mp3" volume="0.0"]
+		- Calm-Mauiwowi.wav
+			[music path="Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
 	- continue normaly
+		jump timeline/Normal-Post-Dev
+	jump timeline/Dev-point
 else:
 	narator: Your Choice Didn't Mater
+label Normal-Post-Dev
 waifu-potato-v1 (blush): UwU
 waifu-potato-v1 (nutural): Hiiiii \:3
 You: Erm... What the ∑?
@@ -28,6 +36,7 @@ narator: You have a tough choice to make?
 	jump timeline/death.exe
 	label death.exe
 	[background arg="res://art/hellish_landscape.png" fade="0.0"]
+	[music fade="0.0" volume="0.0"]
 	narator: You Died
 	[wait time="7.8"]
 	[end_timeline]
