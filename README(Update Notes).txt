@@ -28,3 +28,6 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 -Added a new character art
 -Added a new background art
 -Added a ∑
+
+11/28/2024~
+-Added Dev option

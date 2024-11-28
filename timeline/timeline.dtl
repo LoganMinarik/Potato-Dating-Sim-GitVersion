@@ -6,6 +6,21 @@ narator: Anyway, Enjoy what we have to offer!
 narator: You, find yourself at your boring 9-5 grocery store job. Begging for something good to happen to you.
 narator: what is your name?
 [text_input var="UserName"]
+if {UserName} == "Dev":
+	- death.exe
+		jump timeline/death.exe
 waifu-potato-v1 (blush): UwU
 waifu-potato-v1 (nutural): Hiiiii \:3
 You: Erm... What the ∑?
+You: H-Hello? (Have I lost my Mind? Am I talking to a potato??!?!?)
+narator: You have a tough choice to make?
+- Date the Food
+	waifu-potato-v1 (nutural): Well?
+	You: Erm... Hello there dearist vegitable
+- death.exe
+	jump timeline/death.exe
+	label death.exe
+	[background arg="res://art/hellish_landscape.png" fade="0.0"]
+	narator: You Died
+	[wait time="7.8"]
+	[end_timeline]
