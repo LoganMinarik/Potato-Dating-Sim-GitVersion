@@ -9,6 +9,13 @@ narator: what is your name?
 if {UserName} == "Dev":
 	- death.exe
 		jump timeline/death.exe
+	- sound test
+		- matcha_kawaii.mp3
+			[music path="res://music&sounds/matcha_kawaii.mp3" fade="0.0" volume="0.0"]
+			[sound path="res://music&sounds/matcha_kawaii.mp3" volume="0.0"]
+	- continue normaly
+else:
+	narator: Your Choice Didn't Mater
 waifu-potato-v1 (blush): UwU
 waifu-potato-v1 (nutural): Hiiiii \:3
 You: Erm... What the ∑?
@@ -24,3 +31,4 @@ narator: You have a tough choice to make?
 	narator: You Died
 	[wait time="7.8"]
 	[end_timeline]
+<Empty Text Event>
