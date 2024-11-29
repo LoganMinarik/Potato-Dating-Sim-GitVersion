@@ -6,6 +6,7 @@ func _ready() -> void:
 	Dialogic.Styles.load_style("visualnovel-style")
 	Dialogic.start("timeline")
 	Dialogic.start("timeline-pocktes")
+	Dialogic.start("fightbattles-poken")
 	pass # Replace with function body.
 
 

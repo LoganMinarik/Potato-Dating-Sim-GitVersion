@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cwk5sw410m2eq"
+path="res://.godot/imported/Eclipse of Despair.mp3-97c073354f2db8e349edf67a5adee401.mp3str"
+
+[deps]
+
+source_file="res://music&sounds/Eclipse of Despair.mp3"
+dest_files=["res://.godot/imported/Eclipse of Despair.mp3-97c073354f2db8e349edf67a5adee401.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

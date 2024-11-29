@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyu5fs20n57tq"
+path="res://.godot/imported/Shadows of Despair.mp3-7327a2007e59fd1970c4c7dafd494d70.mp3str"
+
+[deps]
+
+source_file="res://music&sounds/Shadows of Despair.mp3"
+dest_files=["res://.godot/imported/Shadows of Despair.mp3-7327a2007e59fd1970c4c7dafd494d70.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

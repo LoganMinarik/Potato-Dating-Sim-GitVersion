@@ -26,6 +26,15 @@
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
+"angery": {
+"export_overrides": {
+"image": "\"res://art/potato_anger.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "blush": {
 "export_overrides": {
 "image": "\"res://art/potato_blush.png\""

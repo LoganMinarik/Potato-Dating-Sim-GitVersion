@@ -39,3 +39,23 @@ use the name "Dev" to get into the dev menu when prompted
 -Added more story
 -Added Additional Timeline
 -Added more Art
+
+11/29/2024~
++ Let Him Cook Update
+-Added Voice Lines
+-Added the UwU sound effect
+-Added Ramen
+-Added Baka sound
+-Added New emotion
+-Added new dev room options
+-Added more dialog
+-Added Mystery Character 
+-Added Cult
+-Added WW JP voice lines
+-Added New Character 
+-Added New music
+-Added the death.exe ending
+-Added timeline
+-Added Dream world
+-Added bedroom
+-Added Battle feature
