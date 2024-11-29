@@ -1,4 +1,5 @@
 Hello, If you are reading this you have forund the oldest version of the game. :3
+use the name "Dev" to get into the dev menu when prompted
 
 11/03/2024~
 -Added a new character art
@@ -33,3 +34,8 @@ Hello, If you are reading this you have forund the oldest version of the game. :
 -Added Dev option
 -Added Music
 -Added more text
+-Added Dev Room
+-Added Appartment
+-Added more story
+-Added Additional Timeline
+-Added more Art

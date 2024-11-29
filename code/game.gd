@@ -5,6 +5,7 @@ extends Node2D
 func _ready() -> void:
 	Dialogic.Styles.load_style("visualnovel-style")
 	Dialogic.start("timeline")
+	Dialogic.start("timeline-pocktes")
 	pass # Replace with function body.
 
 

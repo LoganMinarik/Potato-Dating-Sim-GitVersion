@@ -9,21 +9,11 @@ narator: what is your name?
 [text_input var="UserName"]
 if {UserName} == "Dev":
 	label Dev-point
-	[music fade="0.0" volume="0.0"]
-	- death.exe
-		jump timeline/death.exe
-	- sound test
-		- matcha_kawaii.mp3
-			[music path="res://music&sounds/matcha_kawaii.mp3" fade="0.0" volume="0.0"]
-			[sound path="res://music&sounds/matcha_kawaii.mp3" volume="0.0"]
-		- Calm-Mauiwowi.wav
-			[music path="Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
-	- continue normaly
-		jump timeline/Normal-Post-Dev
-	jump timeline/Dev-point
+	jump timeline-pocktes/entrence
 else:
 	narator: Your Choice Didn't Mater
 label Normal-Post-Dev
+[background arg="res://art/Grocery-Store-Background.jpg" fade="0.0"]
 waifu-potato-v1 (blush): UwU
 waifu-potato-v1 (nutural): Hiiiii \:3
 You: Erm... What the ∑?
@@ -40,4 +30,15 @@ narator: You have a tough choice to make?
 	narator: You Died
 	[wait time="7.8"]
 	[end_timeline]
-<Empty Text Event>
+You: (Maybe I should take her home since im already patheticly by myself and have none to love.)
+You: *Crys in α Male*
+waifu-potato-v1 (nutural): A-are you Ok?
+You: Yes, perfectly A OK
+[background fade="2.0"]
+[wait time="1.0"]
+narator: You stole the potaoe hoping no one would care of petty theft, to no suprize in the modern day no one cares and assumes your just mentally ill and do not want to interact with you and that there are no cameras arount too \:3
+label The Appartment First
+[background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="1.0"]
+You: Home Safely
+waifu-potato-v1: Wow, not to bad for someone works in retail
+narator: Disclamer\: This is a fantasy game and no one working a retail job cannot afford this unless they have money comeing from somewhere else \:3

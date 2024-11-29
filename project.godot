@@ -28,7 +28,8 @@ directories/dch_directory={
 "waifu-potato-v1": "res://code/waifu-potato-v1.dch"
 }
 directories/dtl_directory={
-"timeline": "res://timeline/timeline.dtl"
+"timeline": "res://timeline/timeline.dtl",
+"timeline-pocktes": "res://timeline/timeline-pocktes.dtl"
 }
 layout/style_list=["res://art/visualnovel-style.tres", "res://art/nochar_style.tres", "res://art/visnovel-style.tres"]
 layout/default_style="res://art/visualnovel-style.tres"

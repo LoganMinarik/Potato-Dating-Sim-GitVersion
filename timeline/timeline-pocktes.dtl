@@ -1,0 +1,26 @@
+label entrence
+[music path="res://music&sounds/Dev_room.wav" fade="0.0" volume="0.0"]
+[background arg="res://art/dev_room.png" fade="2.0"]
+label Console
+- Sound-Test
+	[music fade="0.0" volume="0.0"]
+	- Off
+		[music fade="0.0" volume="0.0"]
+	- Calm-Mauiwowi.wav
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+	- Dev-room.wav
+		[music path="res://music&sounds/Dev_room.wav" fade="0.0" volume="0.0"]
+	jump timeline-pocktes/Console
+- Location
+	- death.exe
+		jump timeline/death.exe
+- Story
+	- First Encounter
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+		jump timeline/Normal-Post-Dev
+	- Start
+		[music fade="0.0" volume="0.0"]
+		jump timeline/
+	- Appartment Pt1
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+		jump timeline/The Appartment First
