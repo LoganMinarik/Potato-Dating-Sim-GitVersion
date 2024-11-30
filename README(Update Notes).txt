@@ -59,3 +59,17 @@ use the name "Dev" to get into the dev menu when prompted
 -Added Dream world
 -Added bedroom
 -Added Battle feature
+
+11/30/2025~
+-Added 2D area
+-Added Signal menu to Dev room
+-Added Timeline
+-Added scripts
+-Added new .tscn
+-Added new .gd
+-Added new art
+-Added Arch user
+-Added orb
+-Added new options
+-Added 434 files
+-Added unused assets

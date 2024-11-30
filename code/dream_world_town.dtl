@@ -1,0 +1,6 @@
+label 2D Game Start
+[signal arg="2D game start"]
+[wait time="5.0"]
+player2d-arch (Normal): W-what heppened?
+player2d-arch (Anger): This better be a dream
+label exit

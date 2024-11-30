@@ -26,10 +26,12 @@ directories/dch_directory={
 "apartment-livingroom-tv": "res://code/apartment-livingroom-tv.dch",
 "decamark": "res://code/decamark.dch",
 "narator": "res://code/narator.dch",
+"player2d-arch": "res://code/player2d-arch.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch",
 "waifu-potato-v1": "res://code/waifu-potato-v1.dch"
 }
 directories/dtl_directory={
+"dream_world_town": "res://code/dream_world_town.dtl",
 "fightbattles-poken": "res://timeline/fightbattles-poken.dtl",
 "timeline": "res://timeline/timeline.dtl",
 "timeline-pocktes": "res://timeline/timeline-pocktes.dtl"

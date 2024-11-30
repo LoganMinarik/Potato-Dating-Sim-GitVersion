@@ -20,6 +20,12 @@ label Console
 	- Soft Baka
 		[sound path="res://music&sounds/softbaka.wav" volume="0.0"]
 	jump timeline-pocktes/Console
+- Signals
+	- Dev signal
+		[signal arg="its a signal"]
+		jump Console
+	- Game 2D DreamWorld
+		[signal arg="2D game start"]
 - Location
 	- Back
 		jump timeline-pocktes/Console

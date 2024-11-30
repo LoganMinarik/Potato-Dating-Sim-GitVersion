@@ -131,7 +131,7 @@ label post uni encounter
 My name is Uni, Uni the Unicorn
 Let me show you the wonder of this world!
 decamark: Insert Digimon esk gameplay signal here
-[signal]
+jump dream_world_town/2D Game Start
 label Nah Skip that Uni
 [wait time="1.0"]
 [music path="res://music&sounds/Whispers of Serenity.mp3" fade="0.9" volume="-5.7"]
@@ -151,3 +151,12 @@ if {Uniencounter} == "C":
 [wait time="7.0"]
 You: What the Σ?
 You: The sound came from the kichen!
+[background arg="res://art/blackvoid.png" fade="1.2"]
+[background arg="res://art/(Dark)Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="2.3"]
+narator: The living room is a void, a silent, shadowy expanse. You hesitate, your hand hovering over the light switch. A flicker of light catches your eye - the kitchen, a beacon in the darkness. Curiosity, tinged with fear, compels you forward
+Σ? On the name of Baby Gronk!
+narator: Panic sets in as you frantically search the pantry, the fridge, even beneath the couch cushions. The potato, your culinary cornerstone, has mysteriously disappeared
+waifu-potato-v1 (nervoius): ... im behind you... 
+You: Huh?
+[voice path="res://music&sounds/softbaka.wav" volume="0.0"]
+waifu-potato-v1 (angery): baka!

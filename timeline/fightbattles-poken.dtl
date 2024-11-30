@@ -51,4 +51,6 @@ decamark: IF you mread this it loaded properly
 [background arg="res://art/blackvoid.png" fade="1.0"]
 [music path="res://music&sounds/Colors of Identity.mp3" fade="0.0" volume="0.0"]
 [background arg="res://art/(Uni)Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="1.0"]
-jump timeline/post uni encounter
+jump timeline/Nah Skip that Uni
+label 
+[signal arg="2D game start"]
