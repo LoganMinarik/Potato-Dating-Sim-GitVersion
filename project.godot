@@ -39,6 +39,9 @@ layout/default_style="res://art/visualnovel-style.tres"
 glossary/default_case_sensitive=true
 variables={
 "First Date Pick": "",
+"RunBattleEnergy": 3,
+"Uni_HP": 100,
+"Uniencounter": "",
 "UserName": ""
 }
 extensions_folder="res://addons/dialogic_additions"
@@ -80,5 +83,6 @@ dialogic_default_action={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

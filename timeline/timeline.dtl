@@ -26,7 +26,8 @@ narator: You have a tough choice to make?
 - death.exe
 	jump timeline/death.exe
 	label death.exe
-	[background arg="res://art/hellish_landscape.png" fade="0.0"]
+	[background arg="res://art/blackvoid.png" fade="0.5"]
+	[background arg="res://art/hellish_landscape.png" fade="1.0"]
 	[music path="res://music&sounds/Eclipse of Despair.mp3" fade="0.0" volume="0.0"]
 	narator: You Died
 	[wait time="7.8"]
@@ -115,8 +116,38 @@ You: *Sleeps in Alpha Male*
 You: What the?
 narator: You find your self having a more wacky dream then the norm.
 You: What is that!
-[background arg="res://art/(Uni)Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="0.0"]
+[background arg="res://art/(Uni)Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="0.5"]
+[wait time="0.6"]
 narator: A weird wilded Unicorn appears!
-- Talk To it
+- Talk To it (Beta Option)
+	set {Uniencounter} = "B"
 - Fight it like an Alpha Saphire!
+	set {Uniencounter} = "A"
 	jump fightbattles-poken/Uni vs You Fight Poken 
+- Wake up (Sigma Option)
+	set {Uniencounter} = "C"
+	jump timeline/Nah Skip that Uni
+label post uni encounter
+My name is Uni, Uni the Unicorn
+Let me show you the wonder of this world!
+decamark: Insert Digimon esk gameplay signal here
+[signal]
+label Nah Skip that Uni
+[wait time="1.0"]
+[music path="res://music&sounds/Whispers of Serenity.mp3" fade="0.9" volume="-5.7"]
+[background arg="res://art/blackvoid.png" fade="1.0"]
+[background arg="res://art/Gemini_Generated_Image_8rm4v8rm4v8rm4v8.jpg" fade="1.0"]
+You: Nah Jitt Tripin'
+if {Uniencounter} == "A":
+	You: I was a real Alpha right there!
+	[wait time="1.0"]
+	You: A true hood classic.
+if {Uniencounter} == "B":
+	You: Man, Like a total beta I was sweat talked into by that unicorn
+	You: I made a hood tragity right there
+if {Uniencounter} == "C":
+	You: I didn't have time to care what the dev wanted to do, hidded sigma route 
+[sound path="res://music&sounds/rumbling-trash.wav" volume="0.0"]
+[wait time="7.0"]
+You: What the Σ?
+You: The sound came from the kichen!

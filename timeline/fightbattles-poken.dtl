@@ -1,3 +1,54 @@
-label Uni vs You Fight Poken 
-[background fade="0.0"]
+label Uni vs You Fight Poken
+[background arg="res://art/blackvoid.png" fade="2.0"]
+[wait time="2.0"]
+label battle+loading
+[music path="res://music&sounds/Pixelated-fight.mp3" fade="0.0" volume="0.0"]
+[background arg="res://art/poken_fight_uni.png" fade="1.0"]
+label battle menu
+if {Uni_HP} <= 0:
+	jump victory
+if {Uni_HP} > 0:
+	- Attack
+		- Punch
+			set {Uni_HP} -= 20
+			[sound path="res://music&sounds/punch.wav" volume="0.0"]
+			It was Effective doing 20 Damage
+		- Slash
+			set {Uni_HP} -= 40
+			[sound volume="0.0"]
+			It was super effective doing 40 Damage
+		- Insight
+			You duduce that nothing makes sence in the slightest?
+		- Nuke
+			It Was SUPER MEGA SIGMA ALPHA GIGGA CHAD EFFECTIVE
+			set {Uni_HP} -= 100
+			jump battle menu
+		- back
+			jump battle menu
+	- Item
+		- HP Potion
+			The Enemy stole it and recovered to full health
+			set {Uni_HP} = 100
+		- Money
+			You Have no Money
+		- Half eaten sandwich
+			It taste good but gives you no added benifit
+	- Party
+		You have no friends
+	- Run
+		There is no Escape
+		set {RunBattleEnergy} -= 1
+		if {RunBattleEnergy} == 0:
+			You Fool, You Blacked Out
+			[background arg="res://art/blackvoid.png" fade="1.0"]
+			[wait time="1.0"]
+			You Lost your already non existant money!
+			jump timeline/death.exe
+jump battle menu
+label victory
+You slayed the Unicorn!
 decamark: IF you mread this it loaded properly
+[background arg="res://art/blackvoid.png" fade="1.0"]
+[music path="res://music&sounds/Colors of Identity.mp3" fade="0.0" volume="0.0"]
+[background arg="res://art/(Uni)Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="1.0"]
+jump timeline/post uni encounter
