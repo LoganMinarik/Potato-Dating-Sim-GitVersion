@@ -32,11 +32,12 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "dream_world_town": "res://code/dream_world_town.dtl",
+"episode2": "res://code/episode2.dtl",
 "fightbattles-poken": "res://timeline/fightbattles-poken.dtl",
 "timeline": "res://timeline/timeline.dtl",
 "timeline-pocktes": "res://timeline/timeline-pocktes.dtl"
 }
-layout/style_list=["res://art/visualnovel-style.tres", "res://art/nochar_style.tres", "res://art/visnovel-style.tres"]
+layout/style_list=["res://art/visualnovel-style.tres", "res://art/nochar_style.tres", "res://art/visnovel-style.tres", "res://code/pinknochar.tres"]
 layout/default_style="res://art/visualnovel-style.tres"
 glossary/default_case_sensitive=true
 variables={

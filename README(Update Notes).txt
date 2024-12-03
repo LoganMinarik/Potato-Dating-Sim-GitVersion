@@ -73,3 +73,10 @@ use the name "Dev" to get into the dev menu when prompted
 -Added new options
 -Added 434 files
 -Added unused assets
+
+12/3/2024~
+-Added Boundries
+-Added structures
+-Added sfx
+-Added more to world map
+-Added triger for episode 2

@@ -8,6 +8,7 @@ func _ready() -> void:
 	Dialogic.start("timeline")
 	Dialogic.start("timeline-pocktes")
 	Dialogic.start("fightbattles-poken")
+	Dialogic.start("episode2")
 	pass # Replace with function body.
 
 

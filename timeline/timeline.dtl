@@ -1,3 +1,5 @@
+if {Uniencounter} == "B":
+	jump Nah Skip that Uni
 [background arg="res://art/hellish_landscape.png" fade="0.0"]
 narator: Hello, Welcome to Potato Dating Simulator!
 narator: We are still in our Dev phase, like we only have primitive functions for this meme game.
@@ -62,7 +64,7 @@ label First Date Pick
 	You: You wana play Smash?
 	[music path="res://music&sounds/Shadows of Despair.mp3" fade="0.0" volume="0.0"]
 	narator: The match was wild, You sweat!
-	narator: Yet you still loose to a literal inanimate object who cant pick up a controller... 
+	narator: Yet you still loose to a literal inanimate object who cant pick up a controller...
 	[wait time="1.0"]
 	[wait time="1.0"]
 	waifu-potato-v1 (angery): Git GUD
@@ -123,7 +125,7 @@ narator: A weird wilded Unicorn appears!
 	set {Uniencounter} = "B"
 - Fight it like an Alpha Saphire!
 	set {Uniencounter} = "A"
-	jump fightbattles-poken/Uni vs You Fight Poken 
+	jump fightbattles-poken/Uni vs You Fight Poken
 - Wake up (Sigma Option)
 	set {Uniencounter} = "C"
 	jump timeline/Nah Skip that Uni
@@ -143,20 +145,23 @@ if {Uniencounter} == "A":
 	[wait time="1.0"]
 	You: A true hood classic.
 if {Uniencounter} == "B":
-	You: Man, Like a total beta I was sweat talked into by that unicorn
-	You: I made a hood tragity right there
+	player2d-arch (Sad): Man, Like a total beta I was sweat talked into by that unicorn
+	player2d-arch (Anger): I made a hood tragity right there
+	player2d-arch (Happy): Felt pretty tho!
+	You: Anyway...
 if {Uniencounter} == "C":
-	You: I didn't have time to care what the dev wanted to do, hidded sigma route 
+	You: I didn't have time to care what the dev wanted to do, hidded sigma route
 [sound path="res://music&sounds/rumbling-trash.wav" volume="0.0"]
 [wait time="7.0"]
 You: What the Σ?
 You: The sound came from the kichen!
-[background arg="res://art/blackvoid.png" fade="1.2"]
+jump episode2/
 [background arg="res://art/(Dark)Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="2.3"]
 narator: The living room is a void, a silent, shadowy expanse. You hesitate, your hand hovering over the light switch. A flicker of light catches your eye - the kitchen, a beacon in the darkness. Curiosity, tinged with fear, compels you forward
-Σ? On the name of Baby Gronk!
+You: Σ? On the name of Baby Gronk!
 narator: Panic sets in as you frantically search the pantry, the fridge, even beneath the couch cushions. The potato, your culinary cornerstone, has mysteriously disappeared
-waifu-potato-v1 (nervoius): ... im behind you... 
+waifu-potato-v1 (nervoius): ... im behind you...
 You: Huh?
 [voice path="res://music&sounds/softbaka.wav" volume="0.0"]
 waifu-potato-v1 (angery): baka!
+[background arg="res://art/blackvoid.png" fade="1.2"]

@@ -25,6 +25,7 @@ label Console
 		[signal arg="its a signal"]
 		jump Console
 	- Game 2D DreamWorld
+		set {Uniencounter} = "B"
 		[signal arg="2D game start"]
 - Location
 	- Back

@@ -1,0 +1,15 @@
+decamark: Episode 2
+[background arg="res://art/(Dark)Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="2.3"]
+narator: The living room is a void, a silent, shadowy expanse. You hesitate, your hand hovering over the light switch. A flicker of light catches your eye - the kitchen, a beacon in the darkness. Curiosity, tinged with fear, compels you forward
+You: Σ? On the name of Baby Gronk!
+narator: Panic sets in as you frantically search the pantry, the fridge, even beneath the couch cushions. The potato, your culinary cornerstone, has mysteriously disappeared
+waifu-potato-v1 (nervoius): ... im behind you...
+You: Huh?
+[voice path="res://music&sounds/softbaka.wav" volume="0.0"]
+waifu-potato-v1 (angery): baka!
+[background arg="res://art/blackvoid.png" fade="0.5"]
+[sound path="res://music&sounds/sfx/soundscrate-switch1b.mp3" volume="0.0"]
+[background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="0.5"]
+You: Are you OK 
+waifu-potato-v1 (nervoius): Y-yeah w-what was that noise!
+You: <Empty Text Event>
