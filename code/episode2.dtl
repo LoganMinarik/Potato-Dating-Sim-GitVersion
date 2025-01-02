@@ -10,6 +10,19 @@ waifu-potato-v1 (angery): baka!
 [background arg="res://art/blackvoid.png" fade="0.5"]
 [sound path="res://music&sounds/sfx/soundscrate-switch1b.mp3" volume="0.0"]
 [background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="0.5"]
-You: Are you OK 
+You: Are you OK
 waifu-potato-v1 (nervoius): Y-yeah w-what was that noise!
-You: <Empty Text Event>
+You: I dono? But It would be a huge L if I didn't investagate.
+[background arg="res://art/blackvoid.png" fade="0.0"]
+[wait time="1.0"]
+[background arg="res://art/Gemini_Generated_Image_i1ygd4i1ygd4i1yg.jpg" fade="0.0"]
+- Open the Trash
+# add an if "n128 isw played allow the fortnite op"
+- Open ???
+	You: Oh God No!
+	[background arg="res://art/trashfortnite.png" fade="0.0"]
+	You: Its HIM
+	[music path="res://music&sounds/fortniteanthum.mp3" fade="0.0" volume="0.0"]
+	decamark: \:3
+	player2d-arch (Sad): Ima KMS
+	jump timeline-pocktes/
