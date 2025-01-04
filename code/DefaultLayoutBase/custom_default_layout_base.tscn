@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 ]
+[gd_scene load_steps=2 format=3 uid="uid://3theggh2bmti"]
 
 [ext_resource type="Script" path="res://code/DefaultLayoutBase/default_layout_base.gd" id="1_ifsho"]
 

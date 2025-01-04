@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 ]
+[gd_scene load_steps=3 format=3 uid="uid://bb2eo4yfrep8v"]
 
 [ext_resource type="Script" path="res://code/FullBackground/full_background_layer.gd" id="1_tu40u"]
 [ext_resource type="Script" path="res://addons/dialogic/Modules/Background/node_background_holder.gd" id="2_ghan2"]

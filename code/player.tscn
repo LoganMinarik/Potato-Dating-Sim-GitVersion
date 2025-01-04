@@ -1,145 +1,41 @@
-[gd_scene load_steps=12 format=3 uid="uid://bksiy3djial1y"]
+[gd_scene load_steps=27 format=3 uid="uid://bksiy3djial1y"]
 
-[ext_resource type="Texture2D" uid="uid://b4q4r33fdb8h7" path="res://resources/sprites/2D-Poken/Male_Spritesheet.png" id="1_bav38"]
-[ext_resource type="Script" path="res://code/player.gd" id="1_tucj1"]
+[ext_resource type="Script" path="res://addons/block_code/block_code_node/block_code.gd" id="2_ixhr0"]
+[ext_resource type="Script" path="res://addons/block_code/serialization/block_serialization_tree.gd" id="3_lu5f7"]
+[ext_resource type="Script" path="res://addons/block_code/serialization/block_serialization.gd" id="4_xitni"]
+[ext_resource type="Script" path="res://addons/block_code/serialization/value_block_serialization.gd" id="5_aiecp"]
+[ext_resource type="Script" path="res://addons/block_code/serialization/block_script_serialization.gd" id="6_skiub"]
+[ext_resource type="Script" path="res://addons/block_code/code_generation/variable_definition.gd" id="7_v3t71"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_flrsg"]
 size = Vector2(16, 16)
 
 [sub_resource type="Animation" id="Animation_jebdk"]
 length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [1]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:flip_h")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="Animation" id="Animation_01qbo"]
 resource_name = "down"
 length = 0.6
 loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.3),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [0, 2]
-}
 
 [sub_resource type="Animation" id="Animation_gsorp"]
 resource_name = "idel"
 loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [1]
-}
 
 [sub_resource type="Animation" id="Animation_bdqdm"]
 resource_name = "left"
 length = 0.5
 loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [6, 8]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:flip_h")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="Animation" id="Animation_261yu"]
 resource_name = "right"
 length = 0.6
 loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.3),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [8, 6]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:flip_h")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
 
 [sub_resource type="Animation" id="Animation_b8vbh"]
 resource_name = "up"
 length = 0.6
 loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.3),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [5, 3]
-}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_gogxl"]
 _data = {
@@ -153,16 +49,118 @@ _data = {
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_qjgjb"]
 
-[node name="Player" type="CharacterBody2D"]
-script = ExtResource("1_tucj1")
+[sub_resource type="Resource" id="Resource_sq3jt"]
+script = ExtResource("4_xitni")
+name = &"load_sound"
+children = Array[ExtResource("4_xitni")]([])
+arguments = {
+"file_path": "",
+"name": ""
+}
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_bav38")
-centered = false
-offset = Vector2(0, -4)
-hframes = 3
-vframes = 3
-frame = 1
+[sub_resource type="Resource" id="Resource_5lr1j"]
+script = ExtResource("4_xitni")
+name = &"ready"
+children = Array[ExtResource("4_xitni")]([SubResource("Resource_sq3jt")])
+arguments = {}
+
+[sub_resource type="Resource" id="Resource_qytvm"]
+script = ExtResource("3_lu5f7")
+root = SubResource("Resource_5lr1j")
+canvas_position = Vector2(54, 47)
+
+[sub_resource type="Resource" id="Resource_gj7c1"]
+script = ExtResource("4_xitni")
+name = &"characterbody2d_move"
+children = Array[ExtResource("4_xitni")]([])
+arguments = {
+"down": "S",
+"left": "A",
+"right": "D",
+"speed": Vector2(100, 100),
+"up": "W"
+}
+
+[sub_resource type="Resource" id="Resource_ab8e6"]
+script = ExtResource("5_aiecp")
+name = &"is_input_actioned"
+arguments = {
+"action": "pressed",
+"action_name": &"ui_home"
+}
+
+[sub_resource type="Resource" id="Resource_unlad"]
+script = ExtResource("5_aiecp")
+name = &"get_resource_file_path"
+arguments = {
+"file_path": "res://music&sounds/UwU.wav"
+}
+
+[sub_resource type="Resource" id="Resource_ggauq"]
+script = ExtResource("4_xitni")
+name = &"play_sound"
+children = Array[ExtResource("4_xitni")]([])
+arguments = {
+"db": null,
+"name": SubResource("Resource_unlad"),
+"pitch": 1.0
+}
+
+[sub_resource type="Resource" id="Resource_wchkj"]
+script = ExtResource("4_xitni")
+name = &"if"
+children = Array[ExtResource("4_xitni")]([SubResource("Resource_ggauq")])
+arguments = {
+"condition": SubResource("Resource_ab8e6")
+}
+
+[sub_resource type="Resource" id="Resource_0jbvh"]
+script = ExtResource("4_xitni")
+name = &"process"
+children = Array[ExtResource("4_xitni")]([SubResource("Resource_gj7c1"), SubResource("Resource_wchkj")])
+arguments = {}
+
+[sub_resource type="Resource" id="Resource_6cbkg"]
+script = ExtResource("3_lu5f7")
+root = SubResource("Resource_0jbvh")
+canvas_position = Vector2(475, 150)
+
+[sub_resource type="Resource" id="Resource_m1vhm"]
+script = ExtResource("6_skiub")
+script_inherits = "CharacterBody2D"
+block_serialization_trees = Array[ExtResource("3_lu5f7")]([SubResource("Resource_qytvm"), SubResource("Resource_6cbkg")])
+variables = Array[ExtResource("7_v3t71")]([])
+generated_script = "extends CharacterBody2D
+
+
+func _ready():
+	var __sound_1 = AudioStreamPlayer.new()
+	__sound_1.name = ''
+	__sound_1.set_stream(load(''))
+	add_child(__sound_1)
+
+
+func _process(delta):
+	var dir = Vector2()
+	dir.x += float(Input.is_key_pressed(OS.find_keycode_from_string('D')))
+	dir.x -= float(Input.is_key_pressed(OS.find_keycode_from_string('A')))
+	dir.y += float(Input.is_key_pressed(OS.find_keycode_from_string('S')))
+	dir.y -= float(Input.is_key_pressed(OS.find_keycode_from_string('W')))
+	dir = dir.normalized()
+	velocity = dir*Vector2(100, 100)
+	move_and_slide()
+
+	if (Input.is_action_pressed('ui_home')):
+		var __sound_node_1 = get_node(('res://music&sounds/UwU.wav'))
+		__sound_node_1.volume_db = <null>
+		__sound_node_1.pitch_scale = 1
+		__sound_node_1.play()
+
+
+"
+version = 0
+
+[node name="Player" type="CharacterBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8, 8)
@@ -176,3 +174,7 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_qjgjb")
 advance_expression_base_node = NodePath("../AnimationPlayer")
+
+[node name="BlockCode" type="Node" parent="."]
+script = ExtResource("2_ixhr0")
+block_script = SubResource("Resource_m1vhm")

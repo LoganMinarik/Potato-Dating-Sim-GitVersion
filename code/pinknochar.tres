@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_ms0gs"]
 [ext_resource type="PackedScene" uid="uid://cec3hcd7qpyms" path="res://code/CustomPinknochar/custom_pinknochar.tscn" id="1_puiex"]
-[ext_resource type="PackedScene" path="res://code/FullBackground/custom_full_background.tscn" id="2_lfbym"]
+[ext_resource type="PackedScene" uid="uid://bb2eo4yfrep8v" path="res://code/FullBackground/custom_full_background.tscn" id="2_lfbym"]
 [ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="3_aa1q5"]
 [ext_resource type="PackedScene" uid="uid://by6waso0mjpjp" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn" id="4_40ffg"]
 [ext_resource type="PackedScene" uid="uid://dsbwnp5hegnu3" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn" id="5_gvsc1"]

@@ -13,7 +13,7 @@ config_version=5
 config/name="potato-dating-sim"
 run/main_scene="res://code/game.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://art/potato.png"
 
 [autoload]
 
@@ -70,7 +70,7 @@ text/autopauses={}
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
+enabled=PackedStringArray("res://addons/block_code/plugin.cfg", "res://addons/dialogic/plugin.cfg")
 
 [input]
 

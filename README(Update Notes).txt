@@ -80,3 +80,16 @@ use the name "Dev" to get into the dev menu when prompted
 -Added sfx
 -Added more to world map
 -Added triger for episode 2
+
+01/04/2025~
+-Added new coding structure
+-Added sprites
+-Added art
+-Added easteregg
+-Added Haktohafire
+-Added Block Coding
+-Added icon
+-Added SFX
+-Removed Herobrine
+-Removed some scrap code 
+-Added BattlePass
