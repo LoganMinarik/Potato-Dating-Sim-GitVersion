@@ -36,7 +36,13 @@ You: I dono? But It would be a huge L if I didn't investagate.
 	decamark: \:3
 	player2d-arch (Sad): Ima KMS🗣️🔥
 [music fade="0.0" volume="0.0"]
-- Nah (Yeet the Raccoon!)
+- Nah (Yeet the Raccoon!) | [raccon-evaded="true"]
+	if {Uniencounter} == "A":
+		decamark: Your not going to fight me Like you did that Unicorn?
+		decamark: So much for being alpha, your not even sigma!
+	else:
+		decamark: Beta!
+	[sound path="res://music&sounds/sfx/yeet-sound-effect.mp3" volume="0.0"]
 - Ora Ora Ora Ora Ora!
 	[background fade="0.5"]
 	[music path="res://music&sounds/sfx/drip-goku-meme-song-original-dragon-ball-super-music-clash-of-gods-in-description.mp3" fade="0.0" volume="0.0"]
