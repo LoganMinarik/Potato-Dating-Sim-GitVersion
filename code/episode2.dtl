@@ -36,11 +36,17 @@ You: I dono? But It would be a huge L if I didn't investagate.
 	decamark: \:3
 	player2d-arch (Sad): Ima KMS🗣️🔥
 [music fade="0.0" volume="0.0"]
-[background fade="0.5"]
-[music path="res://music&sounds/sfx/drip-goku-meme-song-original-dragon-ball-super-music-clash-of-gods-in-description.mp3" fade="0.0" volume="0.0"]
-[background arg="res://art/(Raccoon).png" fade="0.5"]
-[wait_input]
-You: I feel intimidated.
-You: Yet this feels like a weird acid trip that is no more than an alagory for someone growing up in a small town and grifing with loss and down playing the 80's to 90's using popculture its a very Bound to Earth idea.
-[sound path="res://music&sounds/sfx/ceeday-huh-sound-effect.mp3" volume="0.0"]
-You: nvm
+- Nah (Yeet the Raccoon!)
+- Ora Ora Ora Ora Ora!
+	[background fade="0.5"]
+	[music path="res://music&sounds/sfx/drip-goku-meme-song-original-dragon-ball-super-music-clash-of-gods-in-description.mp3" fade="0.0" volume="0.0"]
+	[background arg="res://art/(Raccoon).png" fade="0.5"]
+	[wait_input]
+	You: I feel intimidated.
+	You: Yet this feels like a weird acid trip that is no more than an alagory for someone growing up in a small town and grifing with loss and down playing the 80's to 90's using popculture its a very Bound to Earth idea.
+	[sound path="res://music&sounds/sfx/ceeday-huh-sound-effect.mp3" volume="0.0"]
+	You: nvm
+[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+[background arg="res://art/Gemini_Generated_Image_i1ygd4i1ygd4i1yg.jpg" fade="0.0"]
+You: Crissis averted
+You: So it was just a Raccoon that made this noise. makes sence.
