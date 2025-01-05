@@ -161,7 +161,9 @@ narator: The living room is a void, a silent, shadowy expanse. You hesitate, you
 You: Σ? On the name of Baby Gronk!
 narator: Panic sets in as you frantically search the pantry, the fridge, even beneath the couch cushions. The potato, your culinary cornerstone, has mysteriously disappeared
 waifu-potato-v1 (nervoius): ... im behind you...
+[voice path="res://music&sounds/sfx/ceeday-huh-sound-effect.mp3" volume="0.0"]
 You: Huh?
 [voice path="res://music&sounds/softbaka.wav" volume="0.0"]
 waifu-potato-v1 (angery): baka!
 [background arg="res://art/blackvoid.png" fade="1.2"]
+[sound volume="0.0"]

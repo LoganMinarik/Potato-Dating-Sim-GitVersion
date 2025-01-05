@@ -31,6 +31,9 @@ directories/dch_directory={
 "waifu-potato-v1": "res://code/waifu-potato-v1.dch"
 }
 directories/dtl_directory={
+"code/fightbattles-poken": "res://code/fightbattles-poken.dtl",
+"code/timeline": "res://code/timeline.dtl",
+"code/timeline-pocktes": "res://code/timeline-pocktes.dtl",
 "dream_world_town": "res://code/dream_world_town.dtl",
 "episode2": "res://code/episode2.dtl",
 "fightbattles-poken": "res://timeline/fightbattles-poken.dtl",

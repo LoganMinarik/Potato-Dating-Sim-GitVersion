@@ -34,3 +34,12 @@ You: I dono? But It would be a huge L if I didn't investagate.
 	[wait time="2.0"]
 	decamark: \:3
 	player2d-arch (Sad): Ima KMS🗣️🔥
+[music fade="0.0" volume="0.0"]
+[background arg="res://art/(Raccoon).png" fade="0.0"]
+[sound path="res://music&sounds/sfx/drip-goku-meme-song-original-dragon-ball-super-music-clash-of-gods-in-description.mp3" volume="0.0"]
+[music path="res://music&sounds/Silent Solstice.mp3" fade="0.0" volume="0.0"]
+[wait_input]
+You: I feel intimidated. 
+You: Yet this feels like a weird acid trip that is no more than an alagory for someone growing up in a small town and grifing with loss and down playing the 80's to 90's using popculture its a very Bound to Earth idea.
+[sound path="res://music&sounds/sfx/ceeday-huh-sound-effect.mp3" volume="0.0"]
+You: nvm
