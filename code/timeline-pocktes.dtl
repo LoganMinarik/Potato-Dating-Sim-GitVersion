@@ -1,0 +1,53 @@
+label entrence
+[music path="res://music&sounds/Dev_room.wav" fade="0.0" volume="0.0"]
+[background arg="res://art/dev_room.png" fade="2.0"]
+label Console
+- Sound-Test
+	[music fade="0.0" volume="0.0"]
+	- Off
+		[music fade="0.0" volume="0.0"]
+	- Calm-Mauiwowi.wav
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+	- Dev-room.wav
+		[music path="res://music&sounds/Dev_room.wav" fade="0.0" volume="0.0"]
+	- matcha_kawaii.wav
+		[music path="res://music&sounds/matcha_kawaii.wav" fade="0.0" volume="0.0"]
+	- Silent Solstice.mp3
+		[music path="res://music&sounds/Silent Solstice.mp3" fade="0.0" volume="0.0"]
+	- UwU
+		[sound path="res://music&sounds/UwU.wav" volume="0.0"]
+		jump timeline-pocktes/Console
+	- Soft Baka
+		[sound path="res://music&sounds/softbaka.wav" volume="0.0"]
+	jump timeline-pocktes/Console
+- Signals
+	- Dev signal
+		[signal arg="its a signal"]
+		jump Console
+	- Game 2D DreamWorld
+		set {Uniencounter} = "B"
+		[signal arg="2D game start"]
+- Location
+	- Back
+		jump timeline-pocktes/Console
+	- death.exe
+		jump timeline/death.exe
+- Story
+	- Back
+		jump timeline-pocktes/Console
+	- First Encounter
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+		jump timeline/Normal-Post-Dev
+	- Start
+		[music fade="0.0" volume="0.0"]
+		jump timeline/
+	- Appartment Pt1
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+		jump timeline/The Appartment First
+		- Music
+	- Appertment Pt1 Option
+		[background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="0.0"]
+		[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+		jump timeline/First Date Pick
+	- Appartment First Night
+		jump timeline/First Night

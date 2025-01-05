@@ -1,0 +1,167 @@
+if {Uniencounter} == "B":
+	jump Nah Skip that Uni
+[background arg="res://art/hellish_landscape.png" fade="0.0"]
+narator: Hello, Welcome to Potato Dating Simulator!
+narator: We are still in our Dev phase, like we only have primitive functions for this meme game.
+narator: Anyway, Enjoy what we have to offer!
+[background arg="res://art/Grocery-Store-Background.jpg" fade="0.0"]
+[music path="res://music&sounds/Calm-Mauiwowi.wav" fade="0.0" volume="0.0"]
+narator: You, find yourself at your boring 9-5 grocery store job. Begging for something good to happen to you.
+narator: what is your name?
+[text_input var="UserName"]
+if {UserName} == "Dev":
+	label Dev-point
+	jump timeline-pocktes/entrence
+else:
+	narator: Your Choice Didn't Mater
+label Normal-Post-Dev
+[background arg="res://art/Grocery-Store-Background.jpg" fade="0.0"]
+[sound path="res://music&sounds/UwU.wav" volume="0.0"]
+waifu-potato-v1 (blush): UwU
+waifu-potato-v1 (nutural): Hiiiii \:3
+You: Erm... What the ∑?
+You: H-Hello? (Have I lost my Mind? Am I talking to a potato??!?!?)
+narator: You have a tough choice to make?
+- Date the Food
+	waifu-potato-v1 (nutural): Well?
+	You: Erm... Hello there dearist vegitable
+- death.exe
+	jump timeline/death.exe
+	label death.exe
+	[background arg="res://art/blackvoid.png" fade="0.5"]
+	[background arg="res://art/hellish_landscape.png" fade="1.0"]
+	[music path="res://music&sounds/Eclipse of Despair.mp3" fade="0.0" volume="0.0"]
+	narator: You Died
+	[wait time="7.8"]
+	[signal arg="Dead"]
+	[end_timeline]
+You: (Maybe I should take her home since im already patheticly by myself and have none to love.)
+You: *Crys in α Male*
+waifu-potato-v1 (nutural): A-are you Ok?
+You: Yes, perfectly A OK
+[background fade="2.0"]
+[wait time="1.0"]
+narator: You stole the potaoe hoping no one would care of petty theft, to no suprize in the modern day no one cares and assumes your just mentally ill and do not want to interact with you and that there are no cameras arount too \:3
+label The Appartment First
+[background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="1.0"]
+You: Home Safely
+waifu-potato-v1: Wow, not to bad for someone works in retail
+narator: Disclamer\: This is a fantasy game and no one working a retail job cannot afford this unless they have money comeing from somewhere else \:3
+So uh you in the mood for...
+label First Date Pick
+- Notflix
+	set {First Date Pick} = "Notflix"
+	waifu-potato-v1 (blush): Oh I would love to see that show Baking Good?
+	You: Yeah, Do you want to have a maratotn? I can Ubor a Bucket of Fried Chicken
+	narator: The two of you sit down and have a 2 hour marathon on Baking Good.
+	[voice path="res://music&sounds/Jessy-WeNeedToBake.wav" volume="0.0"]
+	apartment-livingroom-tv: Jessy we need to bake, on skibidi... no cap!
+	[voice path="res://music&sounds/Yo-Jessy-Rizzler.wav" volume="0.0"]
+	apartment-livingroom-tv: Yo! On Kai Cenat? Even with the Rizzler after us?
+	waifu-potato-v1 (nutural): Awww! That was Crazy!
+- N128
+	set {First Date Pick} = "N128"
+	You: You wana play Smash?
+	[music path="res://music&sounds/Shadows of Despair.mp3" fade="0.0" volume="0.0"]
+	narator: The match was wild, You sweat!
+	narator: Yet you still loose to a literal inanimate object who cant pick up a controller...
+	[wait time="1.0"]
+	[wait time="1.0"]
+	waifu-potato-v1 (angery): Git GUD
+	You: *Crys in Beta as not even Star Vixen on the N128 can save you from you poor smash skills*
+- Dinner
+	set {First Date Pick} = "Dinner"
+	You: You want ramen?
+	narator: A more realistic "struggle meal" \:3
+	[background arg="res://art/Gemini_Generated_Image_7luxgi7luxgi7lux.jpg" fade="0.0"]
+	[wait time="2.0"]
+	narator: Well.... Not that realistic....
+	[wait time="2.0"]
+	narator: Can we make it more budget "struggle meal"?
+	[wait time="1.0"]
+	[background arg="res://art/Gemini_Generated_Image_f6hjtaf6hjtaf6hj.jpg" fade="0.0"]
+	narator: Much better... Anyways... \:3
+	[wait time="1.0"]
+	You: So uh, You a fan of ramen... I myself cook it in chicken broth and add onion soupmix for my extra nutriants
+	waifu-potato-v1 (blush): W-Well I Love the smell of it
+	waifu-potato-v1 (blush): *blushes*
+	[sound path="res://music&sounds/UwU.wav" volume="0.0"]
+	waifu-potato-v1 (blush): UwU
+[background arg="res://art/Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="0.0"]
+[music path="res://music&sounds/Silent Solstice.mp3" fade="0.0" volume="-0.7"]
+You: Hey, I had a good time with you, I never caught your name btw.
+[sound path="res://music&sounds/softbaka.wav" volume="0.0"]
+waifu-potato-v1 (angery): IT'S PoTatoe CHAN!
+waifu-potato-v1 (angery): You never even though about asking a spud her name before going on a date!
+waifu-potato-v1 (angery): You could have at least tried and taken me to the FoxBucks and waited for them to call my name and then remember it!
+[sound path="res://music&sounds/UwU.wav" volume="0.0"]
+waifu-potato-v1 (blush): UwU~\
+But atleast you were brave enough to ask.
+You: Yeah... I guess I was.
+label First Night
+[background arg="res://art/Gemini_Generated_Image_8rm4v8rm4v8rm4v8.jpg" fade="1.2"]
+[music path="res://music&sounds/Whispers of Serenity.mp3" fade="1.0" volume="-5.7"]
+narator: You go to sleep and leave Potaoe chan on a kitchen counter with paper towls and view on the city night sky. You wonder what will happen tomorrow but for now you need rest.
+[background arg="res://art/Gemini_Generated_Image_i1ygd4i1ygd4i1yg.jpg" fade="0.0"]
+[voice path="res://music&sounds/rumbling-trash.wav" volume="0.0"]
+decamark: *rambling in the ally*
+[wait time="1.0"]
+[wait time="1.0"]
+[background arg="res://art/Gemini_Generated_Image_8rm4v8rm4v8rm4v8.jpg" fade="0.0"]
+You: Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+You: *Sleeps in Alpha Male*
+[music fade="0.0" volume="0.0"]
+[background arg="res://art/blackvoid.png" fade="0.9"]
+[wait time="1.0"]
+[music path="res://music&sounds/Colors of Identity.mp3" fade="0.2" volume="-1.1"]
+[background arg="res://art/Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="1.5"]
+You: What the?
+narator: You find your self having a more wacky dream then the norm.
+You: What is that!
+[background arg="res://art/(Uni)Gemini_Generated_Image_eeo2npeeo2npeeo2.jpg" fade="0.5"]
+[wait time="0.6"]
+narator: A weird wilded Unicorn appears!
+- Talk To it (Beta Option)
+	set {Uniencounter} = "B"
+- Fight it like an Alpha Saphire!
+	set {Uniencounter} = "A"
+	jump fightbattles-poken/Uni vs You Fight Poken
+- Wake up (Sigma Option)
+	set {Uniencounter} = "C"
+	jump timeline/Nah Skip that Uni
+label post uni encounter
+My name is Uni, Uni the Unicorn
+Let me show you the wonder of this world!
+decamark: Insert Digimon esk gameplay signal here
+jump dream_world_town/2D Game Start
+label Nah Skip that Uni
+[wait time="1.0"]
+[music path="res://music&sounds/Whispers of Serenity.mp3" fade="0.9" volume="-5.7"]
+[background arg="res://art/blackvoid.png" fade="1.0"]
+[background arg="res://art/Gemini_Generated_Image_8rm4v8rm4v8rm4v8.jpg" fade="1.0"]
+You: Nah Jitt Tripin'
+if {Uniencounter} == "A":
+	You: I was a real Alpha right there!
+	[wait time="1.0"]
+	You: A true hood classic.
+if {Uniencounter} == "B":
+	player2d-arch (Sad): Man, Like a total beta I was sweat talked into by that unicorn
+	player2d-arch (Anger): I made a hood tragity right there
+	player2d-arch (Happy): Felt pretty tho!
+	You: Anyway...
+if {Uniencounter} == "C":
+	You: I didn't have time to care what the dev wanted to do, hidded sigma route
+[sound path="res://music&sounds/rumbling-trash.wav" volume="0.0"]
+[wait time="7.0"]
+You: What the Σ?
+You: The sound came from the kichen!
+jump episode2/
+[background arg="res://art/(Dark)Gemini_Generated_Image_1ukdha1ukdha1ukd.jpg" fade="2.3"]
+narator: The living room is a void, a silent, shadowy expanse. You hesitate, your hand hovering over the light switch. A flicker of light catches your eye - the kitchen, a beacon in the darkness. Curiosity, tinged with fear, compels you forward
+You: Σ? On the name of Baby Gronk!
+narator: Panic sets in as you frantically search the pantry, the fridge, even beneath the couch cushions. The potato, your culinary cornerstone, has mysteriously disappeared
+waifu-potato-v1 (nervoius): ... im behind you...
+You: Huh?
+[voice path="res://music&sounds/softbaka.wav" volume="0.0"]
+waifu-potato-v1 (angery): baka!
+[background arg="res://art/blackvoid.png" fade="1.2"]
